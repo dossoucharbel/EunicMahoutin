@@ -29,7 +29,7 @@ const LoginPage = () => {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: 'gray' }}>
       <View style={[styles.container, { marginTop: 80 }]}>
-        {/* Image supprimée */}
+        {}
       </View>
 
       <View style={{ flex: 1, marginHorizontal: 22 }}>

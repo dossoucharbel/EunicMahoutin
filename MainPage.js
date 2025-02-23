@@ -4,10 +4,10 @@ import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 
 function MainPage() {
-  const navigation = useNavigation();  // Assurez-vous d'utiliser useNavigation()
+  const navigation = useNavigation();
 
   const handleButtonClick = (name) => {
-    navigation.navigate(name);  // Utilisation de navigation.navigate pour changer de page
+    navigation.navigate(name);
   };
 
   return (

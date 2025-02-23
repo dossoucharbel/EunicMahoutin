@@ -1,0 +1,33 @@
+{
+  "name": "back",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "expo": "^52.0.37",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.7",
+    "react": "19.0.0",
+    "react-native": "0.78.0",
+    "react-native-crypto": "^2.2.0",
+    "react-native-randombytes": "^3.6.1"
+  },
+  "devDependencies": {
+    "@react-native/typescript-config": "^0.78.0",
+    "typescript": "^5.7.3"
+  }
+}
